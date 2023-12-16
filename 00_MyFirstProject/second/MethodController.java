@@ -1,30 +1,21 @@
 package com.kh.second;
 
-public class MethodController { // MethodController Å¬·¡½º ¿µ¿ª ½ÃÀÛ
-	// º¸Åë Á¦¾î, ±â´É°ú °ü·ÃµÈ Å¬·¡½º ÀÌ¸§ µÚ¿¡ Controller ºÙÀÓ
+public class MethodController { // MethodController í´ë˜ìŠ¤ ì˜ì—­ ì‹œì‘
+	// ë³´í†µ ì œì–´, ê¸°ëŠ¥ê³¼ ê´€ë ¨ëœ í´ë˜ìŠ¤ ì´ë¦„ ë’¤ì— Controller ë¶™ì„
 
-	public void methodA() { // methodA ½ÃÀÛ
-		System.out.println("methodA È£Ãâ!");
+	public void methodA() { // methodA ì‹œì‘
+		System.out.println("methodA í˜¸ì¶œ!");
 
-	} // methodA ³¡
+	} // methodA ë
 
 	public void methodB() {
-		System.out.println("methodB È£Ãâ!");
+		System.out.println("methodB í˜¸ì¶œ!");
 
 	}
 
 	public void methodC() {
-		System.out.println("methodC È£Ãâ!");
+		System.out.println("methodC í˜¸ì¶œ!");
 
 	}
 
-} // Å¬·¡½º ¿µ¿ª ³¡
-
-/*
- * Q. println¸»°í print ´ÜÃàÅ°? µû·Î ¿É¼Ç¿¡¼­ ´ÜÃàÅ° ÁöÁ¤ÇÏ´Â°Å ¸»°í ±âº»À¸·Î´Â ¾ø³ª?
- * Q. Å°¿öµå vs ¿¹¾à¾î? vs ¸í·É¾î? Â÷ÀÌ Å°¿öµå = ¿¹¾à¾î
- * Q. mainÀÌ ¸Ş¼Òµå¸é Strint[]°¡ ÀÎÀÚ? ±×·³ ³»°¡ ÀÛ¼ºÇÑ ÄÚµå´Â ½ºÆ®¸µ ¹è¿­·Î main¿¡ µé¾î¿À³ª? StringÀº ¹¹ÀÓ?
- * Q. ³í¸®ÀûÀÎ ÇÑ ¹®ÀåÀÌ ³¡³µ´Ù´Â ÀÇ¹Ì°¡? º¯¼öµµ ; ÂïÈ÷´Ï±î ¸Ş¸ğ¸®¿¡ ¾²¿´´Ù´Â ¶æ? ¼±¾ğ¸¸ ÇØµµ ¸Ş¸ğ¸®¿¡ ÀúÀåµÇ³ª?
- * 		"Hello World".toLowerCase().charAt(0);
-		"Hello World".toLowerCase();
- */
+} // í´ë˜ìŠ¤ ì˜ì—­ ë
