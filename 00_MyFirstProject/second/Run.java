@@ -1,32 +1,29 @@
 package com.kh.second;
 
 public class Run {
-//	HelloWorldÀÇ °æ¿ì¿¡´Â ³»ºÎ Å¬·¡½ºÀÇ ¸Þ¼Òµå calling
-//	runÅ¬·¡½º ³»ºÎ¿¡¼­, ¿ÜºÎÀÇ Å¬·¡½º¸¦ calling
+//	HelloWorldì˜ ê²½ìš°ì—ëŠ” ë‚´ë¶€ í´ëž˜ìŠ¤ì˜ ë©”ì†Œë“œ calling
+//	runí´ëž˜ìŠ¤ ë‚´ë¶€ì—ì„œ, ì™¸ë¶€ì˜ ë©”ì†Œë“œë¥¼ calling
 	
-// Today's Subject : ¿ÜºÎ Å¬·¡½º¿¡ ÀÖ´Â ¸Þ¼Òµå¸¦ È£ÃâÇÏ°í ½ÍÀ» ¶§´Â ¾î¶»°Ô ÇØ¾ß ÇÏ´Â°¡?
-/* 1. È£ÃâÇÒ ¸Þ¼Òµå°¡ Á¸ÀçÇÏ´Â Å¬·¡½º¸¦ »ý¼º(new)À» ÇØÁà¾ß ÇÔ
- * 	[ Ç¥Çö¹ý ]
- * 	"Å¬·¡½ºÀÌ¸§" "Å¬·¡½º¸¦ ´ëº¯ÇÒ ÀÌ¸§(º°Äª.º°¸í)" = new Å¬·¡½ºÀÌ¸§();
+// Today's Subject : ì™¸ë¶€ í´ëž˜ìŠ¤ì— ìžˆëŠ” ë©”ì†Œë“œë¥¼ í˜¸ì¶œí•˜ê³  ì‹¶ì„ ë•ŒëŠ” ì–´ë–»ê²Œ í•´ì•¼ í•˜ëŠ”ê°€?
+/* 1. í˜¸ì¶œí•  ë©”ì†Œë“œê°€ ì¡´ìž¬í•˜ëŠ” í´ëž˜ìŠ¤ë¥¼ ìƒì„±(new)ì„ í•´ì¤˜ì•¼ í•¨
+ * 	[ í‘œí˜„ë²• ]
+ * 	"í´ëž˜ìŠ¤ì´ë¦„" "í´ëž˜ìŠ¤ë¥¼ ëŒ€ë³€í•  ì´ë¦„(ë³„ì¹­.ë³„ëª…)" = new í´ëž˜ìŠ¤ì´ë¦„();
  * 
- *	 ¡Ø³ªÁß¿¡ ±í°Ô ´Ù·ïº¼ °Í
  */
 	
 	
-	public static void main(String[] args) { // ¸ÞÀÎ¸Þ¼Òµå ½ÃÀÛ
+	public static void main(String[] args) { // ë©”ì¸ë©”ì†Œë“œ ì‹œìž‘
 
-		/* ¿©·¯ Å¬·¡½º¿¡ °°ÀºÀÌ¸§ methodÀÖ¾îµµ, Å¸ Å¬·¡½º¿¡ ÀÖ¾îµµ  »ç¿ë°¡´É / ¾î´À Å¬·¡½º ¾î´À ¸Þ¼ÒµåÀÎÁö ÁöÁ¤ */
+		/* ì—¬ëŸ¬ í´ëž˜ìŠ¤ì— ê°™ì€ì´ë¦„ methodìžˆì–´ë„, íƒ€ í´ëž˜ìŠ¤ì— ìžˆì–´ë„ ì‚¬ìš©ê°€ëŠ¥
+		ì–´ëŠ í´ëž˜ìŠ¤ ì–´ëŠ ë©”ì†Œë“œì¸ì§€ ì§€ì • */
 		MethodController mc = new MethodController();
 		
 		/* MethodA(); */
-		/* . ÂüÁ¶¿¬»êÀÚ / Á÷Á¢Á¢±Ù¿¬»êÀÚ */
+		/* . ì°¸ì¡°ì—°ì‚°ìž / ì§ì ‘ì ‘ê·¼ì—°ì‚°ìž */
 		mc.methodA();
 		mc.methodB();
 		mc.methodC();
 		
-		
-		
 				
-	} // ¸ÞÀÎ¸Þ¼Òµå ³¡
-
+	} // ë©”ì¸ë©”ì†Œë“œ ë
 }
