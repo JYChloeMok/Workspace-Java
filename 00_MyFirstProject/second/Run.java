@@ -15,7 +15,7 @@ public class Run {
 	public static void main(String[] args) { // 메인메소드 시작
 
 		/* 여러 클래스에 같은이름 method있어도, 타 클래스에 있어도 사용가능
-		어느 클래스 어느 메소드인지 지정 */
+		* 어느 클래스 어느 메소드인지 지정 후 사용 */
 		MethodController mc = new MethodController();
 		
 		/* MethodA(); */
